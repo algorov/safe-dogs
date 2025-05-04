@@ -19,12 +19,19 @@ Users upload an image, the model analyzes it, and the result is displayed with b
 ## 🚀 How to Run
 
 1. Clone the repository
-git clone https://github.com/your-username/dog-muzzle-detector.git
-cd dog-muzzle-detector
+```bash
+git clone https://github.com/algorov/safe-dogs.git
+cd safe-dogs
+```
 2. Build the Docker container
-docker build -t dog-detector-ui .
+```bash
+docker build -t safe-dogs .
+```
 3. Run the container
-docker run -p 8000:8000 dog-detector-ui
+```bash
+docker run -p 8000:8000 safe-dogs
+```
+
 Access the app at: http://localhost:8000
 
 
